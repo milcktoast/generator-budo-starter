@@ -1,0 +1,27 @@
+{
+  "name": "generator-budo-starter",
+  "version": "0.0.0",
+  "description": "Budo Starter Kit",
+  "homepage": "",
+  "author": {
+    "name": "Jay Weeks",
+    "email": "jay.patrick.weeks@gmail.com",
+    "url": "https://jayweeks.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "budo",
+    "babel",
+    "rollup",
+    "ES6",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

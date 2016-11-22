@@ -1,0 +1,33 @@
+# Always
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.psd
+*.tmp
+
+# OS or Editor
+.DS_Store
+Thumbs.db
+.cache
+.project
+.pydevproject
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# NPM
+node_modules
+
+# Assets
+assets
+
+# Build
+build

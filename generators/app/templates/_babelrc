@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "static-fs",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "es2015"
+      ]
+    },
+    "production": {
+      "presets": [
+        ["es2015", {"modules": false}],
+        "babili"
+      ],
+      "plugins": [
+        "external-helpers"
+      ]
+    }
+  }
+}
