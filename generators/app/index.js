@@ -18,7 +18,6 @@ module.exports = yeoman.Base.extend({
   },
 
   _projectTpl: function (tmplPath, destPath) {
-    console.log(this.projectContext)
     this.fs.copyTpl(
       this.templatePath(tmplPath),
       this.destinationPath(destPath),
